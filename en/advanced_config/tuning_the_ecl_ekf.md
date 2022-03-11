@@ -593,7 +593,7 @@ During normal operation, all the test ratios should remain below 0.5 with only o
 
 ![Position, Velocity, Height and Magnetometer Test Ratios](../../assets/ecl/test_ratios_-_successful.png)
 
-The following plot shows the EKF vibration metrics for a multirotor with good isolation.
+The following plot shows the EKF vibration metrics (TODO: I think the units in the plot are wrong. The coning metric should be something with rad^2 because they come from a cross product. I think there is also a mistake in the transformation where the plot is created. Will submit a PR but can't do it right now.) for a multirotor with good isolation.
 The landing shock and the increased vibration during takeoff and landing can be seen.
 Insufficient data has been gathered with these metrics to provide specific advice on maximum thresholds.
 
